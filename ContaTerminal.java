@@ -8,9 +8,9 @@ public class ContaTerminal {
         System.out.print("Digite o número da conta: ");
         
         int numeroConta = scanner.nextInt();
+        scanner.nextLine(); // Limpar o buffer
 
         System.out.print("Digite o nome da agência: ");
-
         String nomeAgencia = scanner.nextLine();
 
         System.out.print("Digite o nome do titular da conta: ");
