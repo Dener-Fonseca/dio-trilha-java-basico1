@@ -11,7 +11,7 @@ public class ContaTerminal {
 
         System.out.print("Digite o nome da agência: ");
 
-        String nomeAgencia = scanner.nextline();
+        String nomeAgencia = scanner.nextLine();
 
         System.out.print("Digite o nome do titular da conta: ");
         
@@ -21,6 +21,6 @@ public class ContaTerminal {
         
         double saldoInicial = scanner.nextDouble();
 
-        System.out.println("Olá, " + nomeTitular + ". Você abriu uma conta no banco com o número " + numeroConta + " na agência " + nomeAgencia + " e com saldo inicial de R$ " + saldoInicial + ".")
+        System.out.println("Olá, " + nomeTitular + ". Você abriu uma conta no banco com o número " + numeroConta + " na agência " + nomeAgencia + " e com saldo inicial de R$ " + saldoInicial + ".");
     }
 }
