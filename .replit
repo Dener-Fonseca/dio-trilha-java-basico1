@@ -72,4 +72,4 @@ author = 39464369
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "java ContaTerminal"
+args = "cd conta-banco/src && java ContaTerminal"
